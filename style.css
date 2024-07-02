@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 
 * {
   padding: 0;
@@ -8,33 +8,150 @@
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
+  background-color: rgb(238, 238, 238);
 }
 
-.navbar{
+.navbar {
   width: 90vw;
-  height: 90px;
-  /* border: 1px solid black; */
+  height: 70px;
+  background-color: rgb(238, 238, 238);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 .navbar ul li {
   list-style: none;
-  font-weight: 700;
+  font-weight: 300;
   cursor: pointer;
 }
 
-.navbar ul li a{
+.navbar ul li a {
   text-decoration: none;
   color: black;
 }
 
-.nav-links{
+.nav-links {
   display: flex;
   gap: 120px;
 }
 
-.logo img{
-  margin: 0 100px 0 20px; 
+.logo img {
+  margin: 0 100px 0 40px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 80px 0 12px 0;
+}
+
+.heading h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-email {
+  padding: 5px;
+  width: 260px;
+}
+
+.btn {
+  margin: 16px 0 90px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #f8900e;
+}
+
+.orange-color {
+  color: darkorange;
+}
+
+.container {
+  display: flex;
+  width: 70vw;
+  justify-content: space-around;
+  margin: auto auto;
+  flex-direction: column;
+}
+
+.benefits {
+  display: flex;
+  width: 70vw;
+  justify-content: space-around;
+  margin-bottom: 65px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.icon {
+  margin: 0 45px 0 20px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 45px 255px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  height: 255px;
+  width: 270px;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+h3 {
+  background-color: rgb(221, 221, 221);
+  width: 100%;
+  text-align: center;
+  padding: 8px 0;
+}
+
+ol li {
+  list-style: none;
+  line-height: 20px;
+}
+
+.footer{
+  height: 80px;
+  background: rgb(221, 221, 221);
+  width: 70vw;
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: end;
+}
+
+.text-footer{
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  margin: 10px 10px 0 0
 }
