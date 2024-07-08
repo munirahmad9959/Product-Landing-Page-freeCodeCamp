@@ -42,7 +42,7 @@ Open the `index.html` file in your preferred web browser to view the product lan
 
 ## Live
 
-You can view the live version of the website [here](https://your-github-username.github.io/your-repository-name).
+You can view the live version of the website [here](https://munirahmad9959.github.io/Product-Landing-Page-freeCodeCamp/).
 
 ## Technologies Used
 
