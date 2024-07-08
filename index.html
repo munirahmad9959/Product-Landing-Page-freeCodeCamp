@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Original Trombones | The Only Trombone Site</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -12,113 +12,114 @@
 
 <body>
 
-    <header>
-        <div class="navbar">
-            <div class="logo"><img src="./product-landing-page-logo.png" width="300px" alt="Show Logo"></div>
-            <div>
-                <ul class="nav-links">
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">HowItWorks</a></li>
-                    <li><a href="#">Pricing</a></li>
-                </ul>
-            </div>
+    <header id="header">
+        <div class="logo-banner">
+            <img id="header-img" src="./product-landing-page-logo.png" width="300px" alt="Show Logo">
         </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#how-it-works" class="nav-link">HowItWorks</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            </ul>
+        </nav>
     </header>
+    <div class="heading">
+        <h1>Handcrafted, home-made masterpieces</h1>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input id="email" name="email" type="email" class="input-email" placeholder="Enter your email address">
+            <input type="submit" id="submit" value="Get Started" class="btn">
+        </form>
+    </div>
 
     <main>
-        <div class="heading">
-            <h1>Handcrafted, home-made masterpieces</h1>
-            <input type="text" class="input-email" placeholder="Enter your email address">
-            <button class="btn">Get Started</button>
-        </div>
-
-        <div class="container">
-            <div class="benefits">
-                <i class="fa fa-3x fa-fire orange-color">
-                </i>
+        <section id="features">
+            <div class="grid">
+                <div class="logo"><i class="fa fa-3x fa-fire orange-color"></i></div>
                 <div class="text">
                     <h2>Premium Materials</h2>
-                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity
-                        of your purchase.</p>
+                    <p>Our meticulously crafted premium trombones use the shiniest brass, sourced locally, to
+                        significantly
+                        enhance the longevity of your purchase.</p>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="benefits">
-                <i class="fa fa-3x fa-truck orange-color icon"></i>
+            <div class="grid">
+                <div class="logo"><i class="fa fa-3x fa-truck orange-color icon"></i></div>
                 <div class="text">
                     <h2>Fast Shipping</h2>
                     <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide
                         free returns if you are not satisfied.</p>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="benefits">
-                <i class="fa fa-3x fa-battery-full orange-color icon" aria-hidden="true"></i>
+            <div class="grid">
+                <div class="logo"><i class="fa fa-3x fa-battery-full orange-color icon" aria-hidden="true"></i></div>
                 <div class="text">
                     <h2>Quality Assurance</h2>
                     <p>For every purchase you make, we will ensure there are no damages or faults and we will check and
                         test the pitch of your instrument.</p>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc?si=S9dwoGvr670zTxq3"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+        <section id="how-it-works">
+            <div class="video-box">
+                <iframe id="video" width="560" height="315"
+                    src="https://www.youtube.com/embed/y8Yv4pnO7qc?si=V9bMfAX61lvpxVFG" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
 
-        <div class="card-container">
-            <div class="cards">
-                <h3>TENOR TROMBONE</h3>
-                <h2>600$</h2>
+        <section id="pricing">
+            <div class="product">
+                <div class="level">TENOR TROMBONE</div>
+                <h2>$600</h2>
                 <ol>
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
                 </ol>
-                <button class="btn">Click Me</button>
+                <button class="btn">Select</button>
             </div>
-            <div class="cards">
-                <h3>TENOR TROMBONE</h3>
-                <h2>600$</h2>
-                <ol>
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>Lorem ipsum dolor sit.</li>
-                </ol>
-                <button class="btn">Click Me</button>
-            </div>
-            <div class="cards">
-                <h3>TENOR TROMBONE</h3>
-                <h2>600$</h2>
-                <ol>
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>Lorem ipsum dolor sit.</li>
-                </ol>
-                <button class="btn">Click Me</button>
-            </div>
-        </div>
 
+            <div class="product">
+                <div class="level">Bass Trombone</div>
+                <h2>$800</h2>
+                <ol>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+
+                <button class="btn">Select</button>
+            </div>
+
+            <div class="product">
+                <div class="level">Valve Trombone</div>
+                <h2>$1200</h2>
+                <ol>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+
+                <button class="btn">Select</button>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <div class="footer">
-            <div class="text-footer">
-                <span>Privacy</span>
-                <span>Terms</span>
-                <span>Contact</span>
-            </div>
-            <div class="copyright">
-                <span>Copyright &copy; 2016, original TROMBONE</span>
-            </div>
-        </div>
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2016, Original Trombones</span>
     </footer>
-
 
 
 </body>
